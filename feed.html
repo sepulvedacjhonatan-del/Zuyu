@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Zuyu Ideal - Principal</title>
+  </head>
+  <body>
+    <!-- Barra superior -->
+    <header class="navbar">
+      <div class="logo">
+        <h1>Zuyu <span>Ideal</span></h1>
+      </div>
+
+      <div class="search-box">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Buscar en Zuyu Ideal..."
+        />
+        <button onclick="searchContent()">🔍</button>
+      </div>
+      <nav>
+        <a href="feed.html">Inicio</a>
+        <a href="perfil.html">Perfil</a>
+        <a href="#">Mensajes</a>
+        <a href="#">Notificaciones</a>
+        <a href="#">Configuración</a>
+        <a href="#">Cerrar sesión</a>
+      </nav>
+    </header>
+
+    <!-- feed de publicaciones -->
+    <main class="feed">
+      <section ="post">
+        <h3>Usuario1</h3>
+        <p>¡Bienvenido a Zuyu Ideal!</p>
+      </section>
+
+      <section class="post">
+        <h3>Usuario2</h3>
+        <p>Estoy probando la nueva red social</p>
+      </section>
+
+      <section ="post">
+        <h2>Usuario3</h2>
+        <p>Me encanta el diseño minimalista 💚</p>
+      </section>
+
+      <section class="post">
+        class="post">
+        <h2>Usuario4</h2>
+        <p>Contenido de la publicación 2...</p>
+      </section>
+    </main>
+    <main class="chat-container">
+      <div class="chat-box" id="chatBox">
+        <div class="message received">Hola, ¿cómo estás? 👋</div>
+        <div class="message sent">Todo bien, probando Zuyu Ideal 🚀</div>
+      </div>
+      <div class="chat-input">
+        <input
+          type="text"
+          id="chatMessage"
+          placeholder="Escribe un mensaje..."
+        />
+        <button onclick="sendMessage()">Enviar</button>
+      </div>
+    </main>
+
+    <!-- Aquí podrías poner un footer si lo necesitas -->
+    <!-- Crear publicación -->
+    <footer class="new-post">
+      <textarea id="newPostText" placeholder="¿Qué estás pensando?"></textarea>
+      <button title="Publicar">Publicar</button>
+    </footer>
+
+    <script src="script.js"></script>
+    
+    <footer><p>© 2026 Zuyu Ideal</p></footer>
+  </body>
+</html>
