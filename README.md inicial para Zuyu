@@ -1,0 +1,27 @@
+# Zuyu
+Red social Zuyu – proyecto Android”
+
+## 🚀 Características
+- Publicar mensajes simples
+- Interacción con botones
+- Diseño modular y fácil de entender
+- Proyecto inicial para aprender Android y Kotlin
+
+## 📱 Instalación
+Clona el repositorio y ábrelo en Android Studio:
+
+```bash
+git clone https://github.com/sepulvedacjhonatan-del/Zuyu.git
+
+---
+
+## 🔹 Pasos finales
+1. Pega este contenido en el editor del `README.md`.  
+2. Haz clic en **Commit changes** (abajo).  
+3. Tu repositorio se actualizará y el README aparecerá en la portada. 🎉  
+
+---
+
+👉 Con esto tu repositorio **Zuyu** se verá mucho más atractivo y cualquiera que lo visite entenderá qué es y cómo probarlo.  
+
+¿Quieres que te prepare también un **.gitignore para Android Studio**, para que no subas archivos innecesarios (como los de compilación) a tu repositorio?
